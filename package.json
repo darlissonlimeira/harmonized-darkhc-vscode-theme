@@ -1,8 +1,8 @@
 {
-  "name": "harmonized-vscode-theme",
-  "displayName": "Harmonized",
-  "description": "Solarized in harmony",
-  "version": "0.5.16",
+  "name": "harmonized-darkhc-vscode-theme",
+  "displayName": "Harmonized Dark",
+  "description": "Dark Solarized in harmony",
+  "version": "0.1.1",
   "scripts": {
     "release:major": "vsce publish major && git push",
     "release:minor": "vsce publish minor && git push",
@@ -10,7 +10,7 @@
     "build": "node src/index.js"
   },
   "preview": false,
-  "publisher": "wheredoesyourmindgo",
+  "publisher": "darlissonlimeira",
   "galleryBanner": {
     "color": "#fdf6e3",
     "theme": "light"
@@ -18,10 +18,10 @@
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wheredoesyourmindgo/harmonized-vscode-theme"
+    "url": "https://github.com/darlissonlimeira/harmonized-vscode-theme"
   },
   "bugs": {
-    "url": "https://github.com/wheredoesyourmindgo/harmonized-vscode-theme/issues"
+    "url": "https://github.com/darlissonlimeira/harmonized-vscode-theme/issues"
   },
   "categories": [
     "Themes"
@@ -37,44 +37,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Harmonized light",
-        "uiTheme": "vs",
-        "path": "./themes/light.json"
-      },
-      {
-        "label": "Harmonized dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark.json"
-      },
-      {
-        "label": "Harmonized light _",
-        "uiTheme": "vs",
-        "path": "./themes/light_.json"
-      },
-      {
-        "label": "Harmonized dark _",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark_.json"
-      },
-      {
-        "label": "Harmonized light (hc)",
-        "uiTheme": "vs",
-        "path": "./themes/light-hc.json"
-      },
-      {
-        "label": "Harmonized dark (hc)",
+        "label": "Harmonized Dark HC",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-hc.json"
-      },
-      {
-        "label": "Harmonized light (hc) _",
-        "uiTheme": "vs",
-        "path": "./themes/light-hc_.json"
-      },
-      {
-        "label": "Harmonized dark (hc) _",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-hc_.json"
       }
     ]
   },

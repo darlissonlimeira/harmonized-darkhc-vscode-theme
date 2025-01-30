@@ -229,6 +229,25 @@ module.exports = {
         foreground: "#b58900",
       },
     },
+    {
+      name: "Async key",
+      scope: "storage.modifier.async.ts",
+      settings: {
+        foreground: "#c0437f"
+      }
+    },
+    {
+      name: "General",
+      scope: [
+        "storage.type.interface.ts",
+        "storage.type.type.ts",
+        "storage.type.class.ts",
+        "storage.modifier.ts"
+      ],
+      settings: {
+        "foreground": "#859900"
+      }
+    },
     syntax.italic,
     syntax.bold,
     syntax.boldItalic,
