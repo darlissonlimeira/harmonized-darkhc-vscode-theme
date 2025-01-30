@@ -1,6 +1,6 @@
 {
   "name": "harmonized-darkhc-vscode-theme",
-  "displayName": "Harmonized Dark",
+  "displayName": "Dark Harmonized",
   "description": "Dark Solarized in harmony",
   "version": "0.1.1",
   "scripts": {
@@ -29,7 +29,6 @@
   "keywords": [
     "theme",
     "solarized",
-    "light",
     "dark",
     "zen",
     "contrast"
@@ -37,7 +36,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Harmonized Dark HC",
+        "label": "Dark Harmonized HC",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-hc.json"
       }
